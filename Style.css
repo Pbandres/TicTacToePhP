@@ -1,0 +1,45 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: bold;
+}
+
+.navbar a:hover {
+  background: #d88a02;
+  color: white;
+  font-size:bold;
+}
+
+.navbar a.active {
+  background-color: #d83900;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+canvas {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }

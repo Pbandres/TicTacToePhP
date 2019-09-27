@@ -1,0 +1,106 @@
+ *{
+      margin:0; 
+      padding:0;
+}
+      body{
+            background-image: url("OrangeW.jpg");
+      }
+      section#cont, #cont2{
+            width: 800px; 
+            height: 65px; 
+            background:#5D5D5D; 
+            margin: 0px auto; 
+            border-radius: 2px; 
+            padding-top: 15px;
+      }
+      section#message{
+            width: 800px; 
+            height: 60px; 
+            margin: 0 auto; 
+            padding-top: 200px;
+      }
+      .mes{
+            width:500px; 
+            margin:0 auto; 
+            height:32px; 
+            background:#CE0000; 
+            border: 2px solid #8C0000; 
+            border-radius: 3px; 
+            text-align: center; 
+            font: bold 18px arial; 
+            color: #fff; padding-top: 
+            13px; cursor: pointer;
+      }
+      .sucess{
+            background: #009900; 
+            border-color: #006600;
+      }
+      div#form {
+            width: 600px; 
+            height: 40px; 
+            margin: 0 auto;
+      }
+      div#form a {
+            float:right; 
+            margin: 3px 140px; 
+            color: #fff; 
+            font:16px arial; 
+            text-decoration: none;
+      }
+      div#form a:hover {
+            text-decoration: underline;
+      }
+      input.em, .put2{
+            border:1px solid #999999; 
+            width: 38%; 
+            height: 30px; 
+            outline: none; 
+            border-radius: 2px;
+      	margin-right: 5px; 
+            font: 15px verdana; 
+            color: #999999;
+      }
+      input.em:focus, .put2:focus{
+            border-color: #707070;
+      }
+      input#bt, #bt2 {
+            width: 105px; 
+            height: 32px; 
+            background:#46AA5D; 
+            border: none; 
+            border-radius: 2px;
+      	font: 15px verdana; 
+            color: #fff; 
+            outline: none;
+      }
+      input#bt:hover, #bt2:hover{
+            background: #449955;
+      }
+      .hover {
+            cursor: pointer;
+      }
+      .disabled {
+            opacity: 0.7; 
+            cursor: wait;
+      }
+      /* Register Page */
+      #cont2 {
+            width: 450px; 
+            height: 210px; 
+            padding-top: 10px;
+      }
+      #form2{
+            width: 400px; 
+            margin: 0 auto; 
+            height: 290px;
+      }
+      .put2{
+            width: 100%; 
+            height: 30px; 
+            font: 14px verdana; 
+            color: #999999; 
+            margin-bottom: 10px;
+      }
+      #bt2{
+            float:right;
+      }
